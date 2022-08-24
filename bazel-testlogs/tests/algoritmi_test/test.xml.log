@@ -1,0 +1,22 @@
+Running main() from gmock_main.cc
+[==========] Running 3 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 3 tests from AlgoritmiTest
+[ RUN      ] AlgoritmiTest.Najveci
+[       OK ] AlgoritmiTest.Najveci (1 ms)
+[ RUN      ] AlgoritmiTest.Najmanji
+[       OK ] AlgoritmiTest.Najmanji (0 ms)
+[ RUN      ] AlgoritmiTest.Medijana
+tests/algoritmi_test.cc(26): error: Value of: medijana == 1
+  Actual: false
+Expected: true
+[  FAILED  ] AlgoritmiTest.Medijana (0 ms)
+[----------] 3 tests from AlgoritmiTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 1 test case ran. (1 ms total)
+[  PASSED  ] 2 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] AlgoritmiTest.Medijana
+
+ 1 FAILED TEST

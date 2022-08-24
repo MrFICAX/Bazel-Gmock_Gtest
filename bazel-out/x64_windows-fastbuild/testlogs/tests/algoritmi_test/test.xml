@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="3" failures="1" disabled="0" errors="0" timestamp="2022-08-23T14:31:20" time="0.001" name="AllTests">
+  <testsuite name="AlgoritmiTest" tests="3" failures="1" disabled="0" errors="0" time="0.001">
+    <testcase name="Najveci" status="run" time="0.001" classname="AlgoritmiTest" />
+    <testcase name="Najmanji" status="run" time="0" classname="AlgoritmiTest" />
+    <testcase name="Medijana" status="run" time="0" classname="AlgoritmiTest">
+      <failure message="tests/algoritmi_test.cc:26&#x0A;Value of: medijana == 1&#x0A;  Actual: false&#x0A;Expected: true" type=""><![CDATA[tests/algoritmi_test.cc:26
+Value of: medijana == 1
+  Actual: false
+Expected: true]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
